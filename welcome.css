@@ -93,6 +93,16 @@ h1 {
     background: #ffffff;
 }
 
+.site-footer {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.site-footer a {
+    color: var(--blue);
+    font-size: 14px;
+}
+
 @media (max-width: 860px) {
     .page-shell {
         width: min(100% - 28px, 980px);
@@ -118,4 +128,36 @@ h1 {
         padding: 24px;
     }
 
+}
+
+.policy-shell {
+    max-width: 780px;
+}
+
+.policy-card {
+    padding: 28px;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: var(--shadow);
+}
+
+.policy-card h1 {
+    margin-bottom: 12px;
+    white-space: normal;
+}
+
+.policy-card h2 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.policy-card p {
+    color: var(--muted);
+    line-height: 1.55;
+}
+
+.policy-card a {
+    color: var(--blue);
 }
